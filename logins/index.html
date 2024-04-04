@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+                <form>
+                    <label for="chk" aria-hidden="true">Sign up</label>
+                    <asp:TextBox runat="server" type="text" placeholder="User name"></asp:TextBox>
+                    <asp:TextBox runat="server" type="email" placeholder="Email"></asp:TextBox>
+                    <asp:TextBox runat="server" type="password" placeholder="Password"></asp:TextBox>
+                    <asp:Button runat="server" Text="Sign Up"></asp:Button>
+                </form>
+			</div>
+
+			<div class="login">
+                <form>
+                    <label for="chk" aria-hidden="true">Login</label>
+                    <asp:TextBox type="email" runat="server" placeholder="Email"></asp:TextBox>
+                    <asp:TextBox type="password" runat="server" placeholder="Password"></asp:TextBox>
+                    <asp:Button runat="server" Text="Login"></asp:Button>
+                </form>
+			</div>
+	</div>
+</body>
+</html>
